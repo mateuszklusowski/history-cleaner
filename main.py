@@ -3,7 +3,7 @@ import sqlite3
 
 def delete(site) -> str:
 
-    with sqlite3.connect('YOUR GOOGLE PROGILE HISTORY FILE PATH') as conn:
+    with sqlite3.connect('YOUR GOOGLE PROFILE HISTORY FILE PATH') as conn:
         c = conn.cursor()
 
         while True:
